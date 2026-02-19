@@ -1,5 +1,5 @@
 package tests;
-
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +14,6 @@ public class LoginTest {
 
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://example-bank-app.com");
@@ -29,6 +28,8 @@ public class LoginTest {
         username.sendKeys("testuser");
         password.sendKeys("password123");
         loginButton.click();
+        String currentUrl = driver.getCurrentUrl();
+Assert.assertTrue(currentUrl.contains("dashboard"));
 
         String expectedTitle = "Dashboard";
         String actualTitle = driver.getTitle();
