@@ -1,6 +1,35 @@
 Bug ID: BUG_01
+Project: Primus Bank Application
 Module: Login
-Issue: System allows login with invalid password.
-Severity: High
-Priority: High
-Status: Open
+Environment: Windows 10 / Chrome Browser
+Build Version: 1.0
+
+Bug Title:
+Login fails with valid username and invalid password does not show proper error message
+
+Description:
+When user enters valid username and invalid password, system does not display correct error message.
+
+Pre-condition:
+User must be registered.
+
+Steps to Reproduce:
+1. Open application
+2. Enter valid username
+3. Enter invalid password
+4. Click Login button
+
+Expected Result:
+System should display "Invalid Password" error message.
+
+Actual Result:
+System does not display any error message.
+
+Severity:
+High
+
+Priority:
+Medium
+
+Status:
+Open
