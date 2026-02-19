@@ -1,14 +1,47 @@
-TC_01 – Verify Login with valid credentials
-Expected Result: User should login successfully.
+Test Case ID: TC_01
+Module: Login
+Test Case Description: Verify login with valid credentials
+Pre-condition: User should be registered
+Steps:
+1. Enter valid username
+2. Enter valid password
+3. Click Login button
+Expected Result:
+User should login successfully and navigate to dashboard.
+Actual Result:
+To be executed
+Status:
+Not Executed
+--------------------------------------------------
 
-TC_02 – Verify Login with invalid password
-Expected Result: Error message should display.
+Test Case ID: TC_02
+Module: Login
+Test Case Description: Verify login with invalid password
+Pre-condition: User should be registered
+Steps:
+1. Enter valid username
+2. Enter invalid password
+3. Click Login button
+Expected Result:
+Error message should be displayed.
+Actual Result:
+To be executed
+Status:
+Not Executed
+--------------------------------------------------
 
-TC_03 – Verify Account Creation
-Expected Result: Account should be created successfully.
-
-TC_04 – Verify Fund Transfer
-Expected Result: Amount should transfer successfully.
-
-TC_05 – Verify Logout
-Expected Result: User should logout successfully.
+Test Case ID: TC_03
+Module: Fund Transfer
+Test Case Description: Verify fund transfer functionality
+Pre-condition: User should login successfully
+Steps:
+1. Navigate to Fund Transfer page
+2. Enter valid account details
+3. Enter amount
+4. Click Submit
+Expected Result:
+Amount should transfer successfully.
+Actual Result:
+To be executed
+Status:
+Not Executed
