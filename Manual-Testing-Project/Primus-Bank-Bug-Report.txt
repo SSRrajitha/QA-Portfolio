@@ -1,0 +1,6 @@
+Bug ID: BUG_01
+Module: Login
+Issue: System allows login with invalid password.
+Severity: High
+Priority: High
+Status: Open
