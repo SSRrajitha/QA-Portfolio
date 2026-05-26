@@ -1,1 +1,9 @@
-Testcases Folder
+TC_01 - Verify GET API returns status code 200
+
+TC_02 - Verify user data is displayed correctly
+
+TC_03 - Verify response time is below 3 seconds
+
+TC_04 - Verify invalid endpoint returns error
+
+TC_05 - Verify API response format is JSON
