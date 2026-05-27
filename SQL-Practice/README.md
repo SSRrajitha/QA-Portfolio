@@ -1,6 +1,13 @@
-This folder contains SQL practice queries including
-- CRUD operations
+Topics Covered:
+- CRUD Operations
+- WHERE Clause
+- Aggregate Functions
+- GROUP BY
 - Joins
 - Subqueries
-- Aggregate Functions
-- Interview practice questions
+- Interview Queries
+
+Tools Used:
+- MySQL
+- phpMyAdmin
+- GitHub
